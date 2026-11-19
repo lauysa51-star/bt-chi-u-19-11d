@@ -1,0 +1,45 @@
+/* Giao diện chung */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Khung form */
+.container {
+    max-width: 650px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Nhãn */
+.form-label {
+    margin-bottom: 10px;
+}
+
+/* Ô nhập liệu */
+.form-control {
+    padding: 10px;
+}
+
+/* Nút đăng ký */
+.btn-register {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+}
+
+/* Khi rê chuột vào nút */
+.btn-register:hover {
+    background-color: #bb2d3b;
+    color: white;
+}
